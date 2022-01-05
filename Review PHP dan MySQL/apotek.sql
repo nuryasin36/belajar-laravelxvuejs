@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 05, 2022 at 08:11 AM
+-- Generation Time: Jan 05, 2022 at 08:22 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.1
 
@@ -47,7 +47,8 @@ INSERT INTO `customer` (`id`, `name`, `address`) VALUES
 (7, 'Geri', 'Jalan Keong 124, Bikini Bottom'),
 (8, 'Hinata', 'Jalan Ninja, Konoha Gakure'),
 (9, 'instajeram', 'Jalan Kenangan, Desa Meta'),
-(10, 'Juum', 'Jalan Konferensi');
+(10, 'Juum', 'Jalan Konferensi'),
+(11, 'Yasin', 'Jalan Kenangan');
 
 -- --------------------------------------------------------
 
@@ -175,7 +176,7 @@ ALTER TABLE `transactions`
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `obat`
