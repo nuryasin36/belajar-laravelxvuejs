@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 05, 2022 at 08:22 AM
+-- Generation Time: Jan 06, 2022 at 02:58 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.1
 
@@ -47,8 +47,7 @@ INSERT INTO `customer` (`id`, `name`, `address`) VALUES
 (7, 'Geri', 'Jalan Keong 124, Bikini Bottom'),
 (8, 'Hinata', 'Jalan Ninja, Konoha Gakure'),
 (9, 'instajeram', 'Jalan Kenangan, Desa Meta'),
-(10, 'Juum', 'Jalan Konferensi'),
-(11, 'Yasin', 'Jalan Kenangan');
+(10, 'Juum', 'Jalan Konferensi');
 
 -- --------------------------------------------------------
 
@@ -75,10 +74,10 @@ INSERT INTO `obat` (`id`, `name`, `symptoms`, `stock`, `information`, `expired_a
 (3, 'Promag', 'maag', 9999, 'buat orang sakit maag', '2022-01-04 05:00:04', 12300, 1),
 (5, 'Hansaplast Spray Antiseptik 50 ml', 'Antiseptik', 1234, 'Ukuran produk: 5,0 x 12,0 x 3,0 cm\r\nKemasan: Semprotan\r\nIsi: 50ml\r\nHansaplast Spray Antiseptik dapat digunakan hingga 6 bulan setelah kemasan dibuka\r\nHalal: Masih belum mendapat sertifikasi halal MUI\r\nHansaplast Art. No. 48388\r\nGTIN 8999777010768\r\nReg. No. Kemenkes RI AKD 20903813649', '2024-07-24 10:50:04', 20000, 3),
 (6, 'Oskadon SP', 'Pegal Linu', 145, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', '2022-01-05 04:50:04', 2500, 4),
-(7, 'Hansaplast Salep Luka', 'Salep Luka', 1377, 'Ukuran produk: 13,0 x 3,5 x 2,7 cm\r\nKemasan: Tube\r\nIsi: 20g\r\nKomposisi: White Petrolatum/Petroleum Jelly, Thin Paraffin Oil, Ceresin Wax, Glycerin, Panthenol, Glyceryl Stearate\r\nHansaplast Salep Luka dapat digunakan hingga 6 bulan setelah kemasan dibuka\r\nHalal: Belum bersertifikasi halal\r\nHansaplast Art. No. 48383\r\nGTIN 8999777010782\r\nReg. No. Kemenkes RI AKL 21603918628', '2024-06-13 10:53:30', 21500, 3),
+(7, 'Hansaplast Salep Luka', 'Luka', 1377, 'Ukuran produk: 13,0 x 3,5 x 2,7 cm\r\nKemasan: Tube\r\nIsi: 20g\r\nKomposisi: White Petrolatum/Petroleum Jelly, Thin Paraffin Oil, Ceresin Wax, Glycerin, Panthenol, Glyceryl Stearate\r\nHansaplast Salep Luka dapat digunakan hingga 6 bulan setelah kemasan dibuka\r\nHalal: Belum bersertifikasi halal\r\nHansaplast Art. No. 48383\r\nGTIN 8999777010782\r\nReg. No. Kemenkes RI AKL 21603918628', '2024-06-13 10:53:30', 21500, 3),
 (8, 'OSKADRYL', 'Batuk', 1785, 'Obat batuk dengan Phenylephrine yang aman dan efektif redakan batuk berdahak dan tidak berdahak.', '2022-01-05 04:53:30', 1700, 4),
 (9, 'Bodrex Extra', 'Sakit Kepala', 1556, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2025-02-19 10:58:46', 2000, 4),
-(10, 'VIDORAN', 'Multivitamin', 555, 'Multivitamin, susu pertumbuhan anak dan susu Ibu hamil pertama dengan IMUN UP yang diperkaya Cod Liver Oil untuk membantu mengoptimalkan tumbuh kembang anak dan memenuhi kebutuhan nutrisi ibu hamil.', '2022-05-24 10:58:46', 13000, 4),
+(10, 'VIDORAN', 'Suplemen', 555, 'Multivitamin, susu pertumbuhan anak dan susu Ibu hamil pertama dengan IMUN UP yang diperkaya Cod Liver Oil untuk membantu mengoptimalkan tumbuh kembang anak dan memenuhi kebutuhan nutrisi ibu hamil.', '2022-05-24 10:58:46', 13000, 4),
 (11, 'ORALIT', 'Sakit Perut', 2647, 'Tiap sachet mengandung :\r\n\r\nNatrium klorida 0,52 gram\r\nKalium klorida 0,30 gram\r\nTrisodium sitrat dihidrat 0,58 gram\r\nGlukosa anhidrat 2,7 gram\r\nDus, 100 sachet @ 4,1 gram', '2022-09-21 11:10:39', 2000, 7),
 (12, 'TOLAK ANGIN', 'Suplemen', 6574, 'Tolak Angin merupakan Obat Herbal Terstandar (OHT) yang diproduksi di pabrik yang terstandar GMP (Good Manufacturing Product), ISO (International Organization of Standardization), dan HACCP (Hazard Analysis Critical Control Point).  Tolak Angin telah melalui uji toksisitas subkronik dan uji khasiat yang terbukti memelihara/menjaga daya tahan tubuh dengan mengkonsumsi 2 sachet setiap hari selama 7 hari atau lebih.', '2022-09-15 11:10:39', 9000, 8),
 (13, 'Biovision', 'Suplemen', 2334, 'Biovision adalah obat suplemen mata produksi PT. Indofarma yang mengandung ekstrak Bilberry, Betakaroten, Vitamin C, dan Vitamin B2. Sel sel mata rentan terhadap kerusakan oleh radikal bebas seperti dari sinar ultraviolet matahari. Betakaroten dan ekstrak Bilberry dalam bentuk antosianosida merupakan antioksidan sehingga dapat membantu mencegah kerusakan mata akibat radikal bebas. Biovision diindikasikan untuk mencegah dan membantu pengobatan beberapa gangguan mata seperti buta senja, retinopati diabetik, degenerasi makula, glaukoma, dan katarak. Kandungan vitamin pada Biovision berfungsi menjaga asupan nutrisi ke mata dan memelihara kesehatan sel mata. Tidak ada kontraindikasi khusus terhadap obat ini. Penggunaan pada ibu hamil dan menyusui memerlukan konsultasi dengan dokter.', '2022-01-05 05:16:21', 25500, 9);
@@ -188,7 +187,7 @@ ALTER TABLE `obat`
 -- AUTO_INCREMENT for table `supplier`
 --
 ALTER TABLE `supplier`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `transactions`
